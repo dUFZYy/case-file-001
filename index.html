@@ -273,9 +273,9 @@ button{font-family:inherit;color:inherit}
     <div class="casefile">
       <div class="stamp-conf">CONFIDENTIAL</div>
       <p class="cf-no">CASE FILE #001</p>
-      <h2 class="cf-title">The Case of the Missed Date</h2>
+      <h2 class="cf-title">The Case of the Postponed Date</h2>
       <div id="caseBody">
-        <p class="cf-text">Sunday. A first date was supposed to happen. It… didn't.<br>Detective Brenda, examine the evidence and name the culprit.</p>
+        <p class="cf-text">Sunday. A first date was supposed to happen. It got postponed.<br>Detective Brenda, examine the evidence and name the culprit.</p>
         <h3 class="cf-h">Evidence</h3>
         <ul class="evidence">
           <li><span>🎿</span><div><b>Exhibit A · Witness report</b>The suspect spent 8 hours in a ski hall that day, teaching people how not to fall over.</div></li>
@@ -292,7 +292,7 @@ button{font-family:inherit;color:inherit}
       <div class="verdict" id="verdict" hidden>
         <div class="stamp-closed" id="stampClosed">CASE CLOSED</div>
         <p class="v-line">It was the <b>Random German Boy</b>,<br>in the <b>Ski Hall</b>,<br>with a <b>Misunderstanding</b>.</p>
-        <p>He thought your call was "just a video call". To you it was a first date — and honestly, it should have been one for him too. He just didn't show it.</p>
+        <p>He thought Sunday was going to be "just a video call". To you it was a first date — and honestly, it should have been one for him too. He just didn't show it.</p>
         <p class="v-sentence"><b>Verdict:</b> guilty.<br><b>Sentence:</b> plan a real first date. And do it properly.</p>
         <button class="wbtn" id="btn-sentence">Carry out the sentence ▶</button>
       </div>
@@ -342,7 +342,7 @@ button{font-family:inherit;color:inherit}
     <div class="wrap4">
       <div class="letter">
         <p class="hand">Brenda,</p>
-        <p class="hand">sorry our call didn't feel like a date. That's on me — I was actually really looking forward to it, I just didn't show it.</p>
+        <p class="hand">sorry I made Sunday sound like "just a video call". That's on me — I was actually really looking forward to it, I just didn't show it.</p>
         <p class="hand">So let me ask properly:</p>
       </div>
       <h2 class="the-q">Will you go on a <em>real</em> first date with me?</h2>
@@ -641,7 +641,7 @@ function show(id) {
   requestAnimationFrame(() => { if (id === 's-fish') Fish.resize(); if (id === 's-sky') Sky.resize(); });
 }
 const CHAPTERS = [
-  { icon: '🔍', kicker: 'Capítulo 1', name: 'The Case of the Missed Date', sub: 'Every good story starts with a crime.', next: 's-clue' },
+  { icon: '🔍', kicker: 'Capítulo 1', name: 'The Case of the Postponed Date', sub: 'Every good story starts with a crime.', next: 's-clue' },
   { icon: '🎣', kicker: 'Capítulo 2', name: 'Fishing for Compliments', sub: "Yes, that's a pun. And a fishing game —<br>you might know where that's from. 😉", next: 's-fish' },
   { icon: '🔭', kicker: 'Capítulo 3', name: 'Look Up', sub: 'Grab your telescope. 🔭', next: 's-sky' },
   { icon: '💌', kicker: 'Capítulo 4', name: 'The Question', sub: 'The important part.', next: 's-ask' },
